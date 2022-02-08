@@ -13,6 +13,11 @@ public class arrays {
 		a[4] = 12;// initilased values into that array
 
 		int b[] = { 1, 4, 3, 5, 7, 8 };
+		
+		for (int i = 0; i < a.length; i++)
+		{
+			System.out.println(a[i]);
+			}
 
 		for (int i = 0; i < b.length; i++) {
 			System.out.println(b[i]);
